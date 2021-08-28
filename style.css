@@ -1,12 +1,12 @@
-.flex{
+.Top{
      padding: 10px;
     width: 100%;
     display: flex;
 }
-.part1{
+.header{
     padding-top: 30px;
 }
-.part1 h1{
+.header h1{
 
     
     line-height: 65px;
@@ -17,7 +17,7 @@ font-family: 'Noto Sans KR', sans-serif;
 
  padding-left: 30px;
    }
-   .part1 h3{
+   .header h3{
        font-size: 22px;
     margin-left: 40px;
     background-image: linear-gradient(to right,#FF8C00 ,rgb(255, 0, 0));
@@ -27,23 +27,23 @@ font-family: 'Noto Sans KR', sans-serif;
        border-radius:5px;
        color: aliceblue;
    }
-   .part1 h3:hover{
+   .header h3:hover{
        color: rgb(255, 255, 255);
       font-size: 23px;
       padding: 18px;
        background-image: linear-gradient(to right,#ff0000 ,#FF8C00);
    }
-   #skip{
+   #colorful-word{
        color: orange;
    }
-.blog1{
+.first-paragraph{
     font-family: Arial, Helvetica, sans-serif;
     font-size:25px;
     margin: justify;
     width: 70%;
     padding-left: 40px;
 }
-.flex img{
+.top img{
     
     padding-left:10px;
     justify-content:space-around;
@@ -73,7 +73,7 @@ font-family: 'Noto Sans KR', sans-serif;
    
 }
 
-.blog2{
+.second-paragraph{
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 250px;
     padding-right: 200px;
@@ -104,20 +104,20 @@ border-radius: 5px;
     transition-duration: -3s;
 
 }
-.rec{
+.recipie{
     text-align: center;
     font-size:40px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
-#rec{
+#recipie-paragraph{
     text-align: center;
     width: 700px;
     margin: auto;
     font-size: 30px;
 }
 
-.box{
+.item-box{
     width: 400px;
   padding-top: 10px;
   padding-left: 10px;
@@ -132,29 +132,29 @@ border-radius: 5px;
 
 }
 
-.flexbox{
+.items{
     display: flex;
     width: 100%;
     justify-content: center;
     padding-top: 100px;
     
 }
-.flexbox img{
+.items img{
     width: 100%;
     
 
 }
-.flexbox h1{
+.items h1{
     font-size:50px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.flexbox p{
+.items p{
     font-family:  Arial, Helvetica, sans-serif;
     font-size:22px;
 padding:5px;
 }
-.flox{
+.main-box{
     
     padding: 40px;
 
@@ -168,7 +168,7 @@ padding:5px;
     
 }
 
-.counter{
+.counter-style{
     display: flex;
 width: 85%;
 box-shadow:  0 0 10px gray;
